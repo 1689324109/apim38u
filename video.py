@@ -57,7 +57,7 @@ def save_news_body(temp, file_path="Z:/win10ref/video/"):
 
 def update_mysql(id,url):
         # 打开数据库连接
-    db = pymysql.connect(host='192.168.17.220',
+    db = pymysql.connect(host='us-lsj-ptlx-xhfrp.xhzdim.top:63306',
                         user='root',
                         password='123456',
                         database='api-videp')
