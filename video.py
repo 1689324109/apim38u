@@ -161,6 +161,4 @@ def from_mysql():
     db.close()
 
 if __name__ == "__main__":
-    while True :
-        from_mysql()
-        sleep(1)
+    from_mysql()
