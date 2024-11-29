@@ -57,7 +57,7 @@ def save_news_body(temp, file_path="Z:/win10ref/video/"):
 
 def update_mysql(id,url):
         # 打开数据库连接
-    db = pymysql.connect(host='us-lsj-ptlx-xhfrp.xhzdim.top',
+    db = pymysql.connect(host='us-lsj-jplx-xhfrp.xhzdim.top',
                         user='root',
                         port=63306,
                         password='123456',
@@ -137,7 +137,7 @@ def getRes():
 def from_mysql():
 
     # 打开数据库连接
-    db = pymysql.connect(host='us-lsj-ptlx-xhfrp.xhzdim.top',
+    db = pymysql.connect(host='us-lsj-jplx-xhfrp.xhzdim.top',
                         user='root',
                         port=63306,
                         password='123456',
